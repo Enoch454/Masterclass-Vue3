@@ -1,15 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <page-home/>
+  <router-view/>
 </template>
 
 <script>
-import PageHome from '@/components/PageHome'
+//import PageHome from '@/components/PageHome'
 
 export default {
   name: 'App',
   components: {
-    PageHome
+    //PageHome
   }
 }
 </script>
